@@ -1,5 +1,5 @@
 const express = require('express');
-<<<<<<< HEAD
+
 const app = express();
 const sampleApiData = require('./sample.json');
 
@@ -7,15 +7,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/public'));
 //login session settings
-=======
-const request = require("request");
-const app = express();
->>>>>>> 6664e54c465a7c44e38726268a849803faecaf5c
+
 
 app.set('views', __dirname + '/views');
 app.set('view engine','ejs');
 
-<<<<<<< HEAD
+
 app.get('/index', function(req,res){
     res.render('index');
 });
@@ -35,14 +32,11 @@ app.get('/nbti_start', (req, res)=>{
     res.render('nbti_start')
 })
 app.listen(3000);
-=======
+
 app.get('/', function(req, res) {
     res.render('index');
 })
 
-app.get('/index', function(req,res){
-    res.render('index');
-});
 
 app.get('/inquireBalance', function(req, res) {
     var isTuno = Math.floor(Math.random() * 899999999) + 100000000;
@@ -75,4 +69,4 @@ app.get('/inquireBalance', function(req, res) {
 });
 
 app.listen(3000);
->>>>>>> 6664e54c465a7c44e38726268a849803faecaf5c
+
