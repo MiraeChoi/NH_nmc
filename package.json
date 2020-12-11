@@ -1,6 +1,7 @@
 {
   "name": "nh",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "nodejs",
   "main": "express.js",
   "dependencies": {
@@ -22,11 +23,32 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bb04265/NH_nmc.git"
+=======
+  "description": "202012",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lee-Soyeon/NH_nmc.git"
+>>>>>>> 6664e54c465a7c44e38726268a849803faecaf5c
   },
   "author": "",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/bb04265/NH_nmc/issues"
   },
   "homepage": "https://github.com/bb04265/NH_nmc#readme"
+=======
+    "url": "https://github.com/Lee-Soyeon/NH_nmc/issues"
+  },
+  "homepage": "https://github.com/Lee-Soyeon/NH_nmc#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+>>>>>>> 6664e54c465a7c44e38726268a849803faecaf5c
 }
