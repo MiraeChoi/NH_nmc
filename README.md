@@ -11,5 +11,6 @@
 <br>
 
 ## 사용 스택
+- Html
 - JavaScript
 - Python
